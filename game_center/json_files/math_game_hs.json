@@ -1,0 +1,425 @@
+[
+    {
+        "rank" : 1, 
+        "name" : "nir", 
+        "difficulty" : "easy", 
+        "high_score" : 66, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 18
+    }, 
+    {
+        "rank" : 2, 
+        "name" : "t", 
+        "difficulty" : "easy", 
+        "high_score" : 60, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 7
+    }, 
+    {
+        "rank" : 3, 
+        "name" : "t", 
+        "difficulty" : "easy", 
+        "high_score" : 36, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 9
+    }, 
+    {
+        "rank" : 4, 
+        "name" : "t", 
+        "difficulty" : "easy", 
+        "high_score" : 20, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 9
+    }, 
+    {
+        "rank" : 1, 
+        "name" : "user1", 
+        "difficulty" : "intermediate", 
+        "high_score" : 40, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 8
+    }, 
+    {
+        "rank" : 2, 
+        "name" : "t", 
+        "difficulty" : "intermediate", 
+        "high_score" : 21, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 14
+    }, 
+    {
+        "rank" : 3, 
+        "name" : "t", 
+        "difficulty" : "intermediate", 
+        "high_score" : 15, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 9
+    }, 
+    {
+        "rank" : 4, 
+        "name" : "t", 
+        "difficulty" : "intermediate", 
+        "high_score" : 15, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 9
+    }, 
+    {
+        "rank" : 1, 
+        "name" : "user1", 
+        "difficulty" : "hard", 
+        "high_score" : 40, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 8
+    }, 
+    {
+        "rank" : 2, 
+        "name" : "t", 
+        "difficulty" : "hard", 
+        "high_score" : 21, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 14
+    }, 
+    {
+        "rank" : 3, 
+        "name" : "t", 
+        "difficulty" : "hard", 
+        "high_score" : 15, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 9
+    }, 
+    {
+        "rank" : 4, 
+        "name" : "t", 
+        "difficulty" : "hard", 
+        "high_score" : 15, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "questions" : 9
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "admin", 
+        "questions" : 23, 
+        "high_score" : 57, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "yehonatan", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "nir", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "t", 
+        "high_score" : 69, 
+        "questions" : 30, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "ret", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "try", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "ewr", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "op", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "yoni", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "try", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "yoram", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "john", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "josh", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "yu", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "poiu", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "jo", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "yaron", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "maor", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "maor1", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "maor2", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "po", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "lp", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "gila", 
+        "high_score" : 57, 
+        "questions" : 23, 
+        "date_scored" : "13\\December\\2021", 
+        "play_duration" : "01:54:21", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "poolke", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "doritos", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "ortal", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "maor2", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "opa", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "tyu", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "joni", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "joni", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "joni", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "lisa", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "popa", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }, 
+    {
+        "rank" : 0, 
+        "name" : "pompa", 
+        "high_score" : 0, 
+        "questions" : 0, 
+        "date_scored" : "01\\December\\1992", 
+        "play_duration" : "00:00:00", 
+        "difficulty" : "easy"
+    }
+]

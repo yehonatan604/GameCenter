@@ -1,0 +1,15 @@
+all_users = [
+	{'id': 1, 'user_name': 'admin', 'password': 'admin123456', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+	{'id': 2, 'user_name': 'yehonatan', 'password': 'blablabla', 'coins': 11, 'questions': 24, 'credit': 50, 'is_login': False},
+	{'id': 3, 'user_name': 'nir', 'password': 'zamir', 'coins': 26, 'questions': 27, 'credit': 50, 'is_login': True},
+	{'id': 4, 'user_name': 't', 'password': 't', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+	{'id': 5, 'user_name': 'ret', 'password': 'ert', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+	{'id': 6, 'user_name': 'try', 'password': 'rty', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+	{'id': 7, 'user_name': 'ewr', 'password': 'wer', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+	{'id': 8, 'user_name': 'op', 'password': 'op', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+	{'id': 9, 'user_name': 'yoni', 'password': 'moni', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+	{'id': 10, 'user_name': 'try', 'password': 'ery', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+	{'id': 11, 'user_name': 'yoram', 'password': 'gaona', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+	{'id': 12, 'user_name': 'jhon', 'password': 'doe', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+	{'id': 13, 'user_name': 'josh', 'password': 'tosh', 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False},
+]

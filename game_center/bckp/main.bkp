@@ -1,0 +1,180 @@
+import oron
+import users
+import json
+
+logged_list = []
+user1_name = ''
+user1_password = ''
+login_user = {}
+
+
+def write_to_database(list_of_dicts):
+    json_db = json.dumps(list_of_dicts, indent=4, separators=(", ", " : "))
+    file = open("users.json", "w")
+    file.write(json_db)
+    file.close()
+    print(json_db)
+
+'''def write_to_database1(list_of_dicts):
+    db = open("users.py", "w")
+    db.write(f"all_users = [\n")
+    db.close()
+    db = open("users.py", "a")
+    for i in range(len(list_of_dicts)):
+        line = list_of_dicts[i]
+        line['id'] = i+1
+    for i in range(len(list_of_dicts)):
+        db.write(f"\t{list_of_dicts[i]},\n")
+    db.write("]\n")
+    db.close()'''
+
+
+def menu():
+    global user1_name, user1_password, login_user
+    option = input('please enter option:\n1-login\n2- logout\n3-change password\n'
+                   '4-change user name\n5-info\n6-play\n8-add new user\n'
+                   '9-delete user\n0-exit\n>')
+
+    if option == '0':
+        exit_fn()
+    elif option == '1':
+        user1_name = input("please enter user name: ")
+        user1_password = input("please enter password: ")
+        login_user = login(user1_name, user1_password)
+    elif option == '2':
+        logout(user1_name, user1_password)
+    elif option == '3':
+        change_password()
+    elif option == '4':
+        change_user_name()
+    elif option == '5':
+        info()
+    elif option == '6':
+        oron.game_menu()
+    elif option == '7':
+        user1_name = input("please enter user name: ")
+        user1_password = input("please enter password: ")
+        add_new_user(user1_name, user1_password)
+    elif option == '8':
+        remove_user()
+    else:
+        print('wrong output')
+    menu()
+
+
+def info():
+    try:
+        password = input('please enter password: ')
+        if password == login_user['password']:
+            for i in login_user:
+                print(i)
+    except KeyError:
+        print('you are not logged in!!!')
+    menu()
+
+
+def login(user_name, password):
+    for user in users.all_users:
+        if user['user_name'] == user_name and user['password'] == password:
+            user['is_login'] = True
+            logged_list.append(user)
+            print(f'hi {user_name}')
+            return user
+    print("wrong user name or password!")
+    return False
+
+
+def logout(user_name, password):
+
+    choice = input(f"are you sure you want to log out {user_name} (y/n)?\n")
+    if password == '':
+        print('you are not logged in already!!!')
+    elif choice == "y".lower() and 'id' in login_user:
+        for user in users.all_users:
+            if user['user_name'] == user_name and user['password'] == password:
+                print(f"you are logged out {user['user_name']}")
+                user['is_login'] = False
+    elif choice == "n".lower():
+        pass
+    else:
+        print('wrong output!')
+    menu()
+
+
+def add_new_user(user_name, password):
+    check_id = 0
+    for i in users.all_users:
+        if i == len(users.all_users):
+            check_id = i+1
+    users.all_users.append({'id': check_id, 'user_name': user_name, 'password': password, 'coins': 0, 'questions': 0, 'credit': 50, 'is_login': False})
+    write_to_database(users.all_users)
+    print("registration complete, please login to verify your account")
+    menu()
+
+
+def change_password():
+    if user1_password != '':
+        password = input('please enter password: ')
+        if password == login_user['password']:
+            new_password = input('please enter new password: ')
+            login_user['password'] = new_password
+            write_to_database(users.all_users)
+            print('new password entered - ' + login_user['password'] + '\n\n')
+            info()
+        elif password != login_user['password']:
+            print('wrong password!!!')
+            login_user['is_login'] = False
+    else:
+        print('please login first')
+    menu()
+
+
+def change_user_name():
+    if user1_password != '':
+        password = input('please enter password: ')
+        if password == login_user['password']:
+            new_user_name = input('please enter new user name: ')
+            login_user['user_name'] = new_user_name
+            write_to_database(users.all_users)
+            print('new user name entered - ' + login_user['user_name'] + '\n\n')
+            info()
+        elif password != login_user['password']:
+            print('wrong password!!!')
+            login_user['is_login'] = False
+    else:
+        print('please login first')
+    menu()
+
+
+def remove_user():
+    try:
+        if login_user['user_name'] == 'admin' and login_user['is_login']:
+            print('this is the user list:')
+            for i in users.all_users:
+                print(i)
+            id_to_remove = int(input("please enter id of the desired user: "))
+            temp_list = users.all_users
+            temp_list.remove(temp_list[id_to_remove])
+            write_to_database(temp_list)
+            print(f'user id {id_to_remove} was removed from the system')
+        else:
+            print('please contact admin to remove a user')
+    except KeyError:
+        print('please login and contact admin to remove a user')
+    menu()
+
+
+def exit_fn():
+    print("are you sure you want to quit ?")
+    choice = input(">")
+    if choice == ("n" or "N"):
+        pass
+    elif choice == ("y" or "Y"):
+        for user in users.all_users:
+            user['is_login'] = False
+        write_to_database(users.all_users)
+        print("thank you for using my game room")
+        exit()
+    else:
+        print("wrong input!")
+        exit_fn()
